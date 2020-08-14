@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import HFace from './images/hFace.svg';
-import Navbar from 'react-bootstrap/NavBar';
+import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
