@@ -1,0 +1,33 @@
+nav {
+    background-color: #4C00B8 !important;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a.nav-link {
+    color: #F5F5F5 !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    border: black 1px solid;
+}
+
+a.nav-link:hover {
+    color: #CCCCCC !important;
+}
+
+a.navbar-brand {
+    width: 15%;
+}
+
+#basic-navbar-menu {
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.logo {
+    width: 100%;
+    min-width: 150px;
+}
+
+.dropdown-menu {
+    right: 0;
+}
