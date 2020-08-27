@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function MyNavBar() {
     return (
-        <Navbar expand="lg">
+        <Navbar expand="lg" sticky="top">
             <Navbar.Brand href="#home">
                 <img src={HFace} alt="Logo" className="logo"/>
             </Navbar.Brand>

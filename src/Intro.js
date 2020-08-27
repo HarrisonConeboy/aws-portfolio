@@ -21,6 +21,11 @@ function Intro() {
                     <img src={KBMan} alt="Self Portrait" className="kbman"/>
                 </Col>
             </Row>
+            <Row style={{height:'100vh'}}>
+                <Col>
+                    Some Stuff
+                </Col>
+            </Row>
         </Container>
     )
 }
