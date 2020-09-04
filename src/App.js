@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
-import MyNavBar from './NavBar';
-import Intro from './Intro';
+import './styling/App.css';
+import MyNavBar from './components/NavBar';
+import Intro from './components/Intro';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <MyNavBar/>

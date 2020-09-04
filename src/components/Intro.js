@@ -1,12 +1,12 @@
 import React from 'react';
-import './Intro.css';
+import '../styling/Intro.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import KBMan from './images/kbman.png';
+import KBMan from '../images/kbman.png';
 
 
-function Intro() {
+const Intro = () => {
     return (
         <Container>
             <Row className="myIntro">

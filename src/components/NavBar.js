@@ -1,12 +1,12 @@
 import React from 'react';
-import './navbar.css';
-import HFace from './images/hFace.svg';
+import '../styling/navbar.css';
+import HFace from '../images/hFace.svg';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-function MyNavBar() {
+const MyNavBar = () => {
     return (
         <Navbar expand="lg" sticky="top">
             <Navbar.Brand href="#home">
